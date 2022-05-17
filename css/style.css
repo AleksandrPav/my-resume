@@ -6,10 +6,10 @@ li{
   list-style: none;
 }
 /*main content section*/
-.Main-content-section {
+.section-main__content {
   padding: 100px 90px;
 }
-.Main-me-section {
+.main__section {
   display: flex;
   flex-direction: row-reverse;
   width: 1200px;
@@ -18,10 +18,10 @@ li{
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 /*About-me-section*/
-.About-me-section {
+.section-main__about {
   margin-bottom: 40px;
 }
-.Main-content-title {
+.content__title {
   font-style: normal;
   font-weight: bold;
   font-size: 22px;
@@ -29,7 +29,7 @@ li{
   color: #000000;
   margin-bottom: 10px;
 }
-.About-me-proffesion {
+.section-main__proffesion {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -37,7 +37,7 @@ li{
   color: #000;
   margin-bottom: 20px;
 }
-.About-me-name {
+.section-main__name {
   font-style: normal;
   font-weight: bold;
   font-size: 45px;
@@ -45,7 +45,7 @@ li{
   color: #000;
   margin-bottom: 25px;
 }
-.About-me-discription {
+.section-main__discription {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -54,13 +54,13 @@ li{
   color: #595959;
 }
 /*My-projects-section*/
-.My-projects-section {
+.projects__section {
   margin-bottom: 50px;
 }
-.My-projercts-list {
+.section-rojects__list {
   padding: 0 0 0 17px;
 }
-.My-projercts-item {
+.section-rojects__item {
   color: #000;
   font-weight: bold;
 }
