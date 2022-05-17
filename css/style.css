@@ -2,6 +2,9 @@ body {
   font-family: "Montserrat", sans-serif;
   background-color: #f5f7fa;
 }
+li{
+  list-style: none;
+}
 /*main content section*/
 .Main-content-section {
   padding: 100px 90px;
@@ -75,6 +78,9 @@ body {
   font-size: 14px;
   line-height: 24px;
   color: #595959;
+}
+.My-projercts__link-img{
+
 }
 .My-projercts-bracket {
   font-style: normal;
